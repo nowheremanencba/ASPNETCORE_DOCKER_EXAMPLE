@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  studentsexamplenetmvcdocker:
+    image: ${DOCKER_REGISTRY}studentsexamplenetmvcdocker
+    build:
+      context: .
+      dockerfile: StudentsExampleNETMVCDocker\Dockerfile
